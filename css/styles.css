@@ -40,6 +40,12 @@ hr {
 .middle-container {
 
 }
+
+.picture-me. {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
 .pro {
   text-decoration: underline;
 }
