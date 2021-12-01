@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>LS Bed and Breakfast</title>
+      <!--
+         LS Bed and Breakfast contact us page
+         Filename: contact.htm
+
+         Author:   Angel Guadarrama Castro
+         Web Design
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles.css">
+      <script src="respond.min.js"></script>
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <header>
+         <h1>
+           <p>LS Bed and Breakfast  <a href="home.htm"><img id="head" src="images/labLogo.png" width="100" height="93" alt="LS Logo"></a></p>
+         </h1>
+      </header>
+      <nav class="sitenavigation">
+         <ul>
+            <li><a href="home.htm">Home</a></li>
+            <li><a href="nearby.htm">What's Nearby</a></li>
+            <li><a href="rates.htm">Rates and Times</a></li>
+            <li><a href="contact.htm">Contact Us</a></li>
+         </ul>
+      </nav>
+      <article>
+        <form>
+          <h2>I would like to...</h2>
+          <fieldset id="contactPurpose">
+            <input type="checkbox" name="type" id="reservation" value="Reservation" />
+            <label for="Reservation">Make a Reservation</label><br/>
+            <input type="checkbox" name="type" id="info" value="Info" />
+            <label for="Info">Get more information about LA B&B</label><br/>
+            <input type="checkbox" name="type" id="discmember" value="Discmember" />
+            <label for="Discmember">Be added to the discount member list</label><br/>
+          </fieldset>
+          <fieldset id="clientInformation">
+            <label for="Lnameinput">Last Name</label>
+            <input type="text" id="lnameinput" name="name" required="required" /><br/>
+            <label for="Fnameinput">First Name</label>
+            <input type="text" id="fnameinput" name="name" required="required" /><br/>
+            <label for="Emailinput">Email Address</label>
+            <input type="email" id="emailinput" name="email" required="required" /><br/>
+            <label for="Phoneinput">Phone Number</label>
+            <input type="text" id="phoneinput" name="phone" required="required" /><br/>
+            <label for="Checkindate">Reservation: check-in date</label>
+            <input type="date" id="checkindate" name="date" required="required" /><br/>
+            <label for="Numofnights">Reservation: number of nights</label>
+            <input type="number" id="numofnights" name="nights" required="required" /><br/>
+          </fieldset>
+          <fieldset id="resetButton">
+            <input type="reset" id="resetBtn" value="Reset" />
+          </fieldset>
+          <fieldset id="submitButton">
+            <input type="submit" id="submitBtn" value="Submit" />
+          </fieldset>
+        </form>
+      </article>
+      <footer>
+        <p>19870 Cyp Church Rd, Cypress, TX 77433  (281) 555-9168</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>

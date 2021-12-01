@@ -1,0 +1,186 @@
+/*
+   LS Bed and Breakfast style sheet
+   Filename: styles.css
+
+   Author:   Angel Guadarrama Castro
+ */
+/* reset styles */
+html {
+    font-size: 16px;
+}
+a, article, body, div, figure, footer, header, h1,
+h2, img, li, nav, p, section, ul, table, tbody, td, th, thead, tr, fieldset, label, form {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+/* header section */
+h1 {
+    text-align: center;
+    font-family: Bitter, "Times New Roman", Times, serif;
+    font-weight: 400;
+    background-color: white;
+    font-size: 2.5em;
+}
+
+/* main content */
+h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 15%;
+    text-align: right;
+    font-family: Bitter, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* site navigation bar */
+nav.sitenavigation {
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+nav.sitenavigation ul {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+nav.sitenavigation li {
+    margin: 0.3em 0.5em;
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+nav.sitenavigation a:link {
+    text-decoration: underline;
+}
+nav.sitenavigation a:visited {
+    color: blue;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+    color: darkred;
+}
+
+/* figures */
+#star, #map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: white;
+}
+/* main content lists */
+.column {
+    display: flex;
+}
+.row {
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#intro p {
+    font-size: 1.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+#links p {
+    text-align: left;
+    padding: 0.5em;
+}
+#descriptions p {
+    text-align: left;
+    padding: 0.5em;
+}
+article ol {
+    margin: 1em 0 1em 2em;
+    font-size: 1.3em;
+    list-style-type: decimal;
+}
+article ul {
+    margin: 1em 0 1em 2em;
+    font-size: 1.3em;
+    list-style-type: disc;
+}
+form h2 {
+    text-align: left;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    font-weight: 500;
+
+}
+fieldset {
+    text-align: left;
+    padding-left: 15%;
+}
+#contactPurpose {
+    text-align: left;
+    padding: 1% 0 1% 25%;
+}
+#resetButton {
+    position: center;
+}
+#submitButton {
+    float: left;
+}
+fieldset label {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+/* main content tables */
+table.center {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+td, th {
+    border: 0.5px solid black;
+    font-size: 1em;
+    padding: 0.4em;
+    text-align: center;
+    background-color: white;
+}
+table {
+    width: 70%;
+    border: 0.5px solid black;
+    background-color: black;
+}
+th {
+    background-color: white;
+}
+.table-heading-column {
+    background-color: white;
+}
+.table-data-columns {
+    background-color: white;
+}
+/* main content CSS tables */
+.row {
+    display: table-row;
+}
+.row div {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+}
+.category {
+    font-weight: bold;
+}
+
+/* footer section */
+footer {
+    padding: 5% 15% 5% 15%;
+    background-color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+footer p {
+    padding: 2% 0 2% 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
+}
