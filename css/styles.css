@@ -79,6 +79,11 @@ hr {
   float: right;
   margin-left: 30px;
 }
+.music-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}  
 .profile {
   padding-top: 60px;
   padding-bottom: 60px;
